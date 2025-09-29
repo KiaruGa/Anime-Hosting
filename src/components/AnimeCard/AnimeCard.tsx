@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { AnimeCardProps } from './AnimeCard.types';
+import type { AnimeCardProps } from './AnimeCard.types';
 import { IMG_HOST } from '../../api';
 
 export const AnimeCard = ({ alias, image, title }: AnimeCardProps) => {

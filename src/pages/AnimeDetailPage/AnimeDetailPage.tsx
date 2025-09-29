@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { $api, IMG_HOST, VIDEO_HOST } from '../../api';
-import { Title } from '../../types/anime.type';
+import type { Title } from '../../types/anime.type';
 import { Badge, VideoPlayer } from '../../components';
 
 export const AnimeDetailPage = () => {
