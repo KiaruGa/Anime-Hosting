@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const IMG_HOST = 'https://anilibria.top/';
-export const VIDEO_HOST = 'https://cache-rfn.libria.fun/';
+export const VIDEO_HOST = 'https://anilibria.top/anime/video/episode/';
 
 export const $api = axios.create({
   baseURL: 'https://anilibria.top/api/v1',
